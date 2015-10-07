@@ -46,7 +46,7 @@ public class CardGenerator{
                 cardIdentity = "King";
                 break;
             default: 
-                cardIdentity = Integer.toString(year%13);
+            cardIdentity = Integer.toString(year%13);
                 break;
         }
         System.out.println("You picked the " + cardIdentity + " of " + suitName);
